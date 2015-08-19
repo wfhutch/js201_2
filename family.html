@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JS 201</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid nav-div">
+        <li class="nav-li"><a href="index.html">Home</a></li>
+      </div>
+    </nav>
+
+  <header></header>
+
+<div class="container-fluid">
+    <form class="form-horizontal">
+      <div class="row form-group first-field">
+        <label class="col-sm-5 control-label">Enter Full Name:</label>
+        <div class="col-sm-4">
+          <input id="name" type="text" class="form-control" placeholder="Name">
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+      <div class="row form-group song-name">
+        <label class="col-sm-5 control-label">Enter Age:</label>
+        <div class="col-sm-4">
+          <input id="age" type="text" class="form-control" placeholder="Age">
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+      <div class="row form-group song-name">
+        <label class="col-sm-5 control-label">Enter Gender:</label>
+        <div class="col-sm-4">
+          <input id="gender" type="text" class="form-control" placeholder="Gender">
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+      <div class="row form-group song-name">
+        <label class="col-sm-5 control-label">Enter Skills:</label>
+        <div class="col-sm-4">
+          <textarea id="skills" type="text" class="form-control" placeholder="cooking, playing piano, soccer, etc."></textarea>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-6">
+          <button id="add-family" class="btn btn-default btn-success btn-lg" value="Submit">Add New Family Member</button>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </form>
+  </div>
+  <footer></footer>
+<script data-main="javascripts/main" src="bower_components/requirejs/require.js"></script>
+
+</body>
+</html>

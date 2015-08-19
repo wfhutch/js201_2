@@ -1,0 +1,8 @@
+{{#each family}}
+  <div class="family" data-key={{@key}}>
+    <h2>{{name}}</h2>
+    <p>Is {{age}} years old and is a {{gender}}</p>
+    <p>Skills include: {{skills}}</p>
+    <button id="disown" type='button' class='btn btn-danger btn-xs deleteButton'>Disown</button>
+  </div>
+{{/each}}
